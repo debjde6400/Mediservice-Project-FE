@@ -35,7 +35,6 @@ body {
   padding: 0 0;
   position: absolute;
   top: 41px;
-  width: 100%;
 
   img {
     margin-left: 8px;
@@ -44,6 +43,9 @@ body {
   .nav-banner {
     padding: 6px 7px;
     box-shadow: $nav-shadow;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 
   button {
